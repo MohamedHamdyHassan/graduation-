@@ -1,0 +1,25 @@
+﻿------ Build started: Project: final project MC2, Configuration: Release AVR ------
+Build started.
+Project "final project MC2.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Users\mns\Downloads\7.0\Vs\Compiler.targets" from project "C:\Users\mns\Downloads\course\Interfacing\final project MC2\final project MC2\final project MC2.cproj" (target "Build" depends on it):
+	Using "RunCompilerTask" task from assembly "C:\Users\mns\Downloads\7.0\Extensions\Application\AvrGCC.dll".
+	Task "RunCompilerTask"
+		Shell Utils Path C:\Users\mns\Downloads\7.0\shellUtils
+		C:\Users\mns\Downloads\7.0\shellUtils\make.exe all --jobs 4 --output-sync 
+		make: Nothing to be done for 'all'.
+	Done executing task "RunCompilerTask".
+	Using "RunOutputFileVerifyTask" task from assembly "C:\Users\mns\Downloads\7.0\Extensions\Application\AvrGCC.dll".
+	Task "RunOutputFileVerifyTask"
+				Program Memory Usage 	:	436 bytes   1.3 % Full
+				Data Memory Usage 		:	0 bytes   0.0 % Full
+				Warning: Memory Usage estimation may not be accurate if there are sections other than .text sections in ELF file
+	Done executing task "RunOutputFileVerifyTask".
+Done building target "CoreBuild" in project "final project MC2.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Users\mns\Downloads\7.0\Vs\Avr.common.targets" from project "C:\Users\mns\Downloads\course\Interfacing\final project MC2\final project MC2\final project MC2.cproj" (entry point):
+Done building target "Build" in project "final project MC2.cproj".
+Done building project "final project MC2.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
